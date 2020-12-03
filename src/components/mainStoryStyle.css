@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;600&display=swap");
+
+.msContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.msHead {
+  font-size: 3rem;
+  font-family: "Sansita Swashed", cursive;
+}
+
+.msSpan {
+  font-size: 1rem;
+  font-family: "Sansita Swashed", cursive;
+}
+
+.msImage {
+  background-attachment: fixed;
+}

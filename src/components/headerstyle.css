@@ -1,0 +1,45 @@
+li a {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+li a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.bookRoomButton {
+  color: #ffffff;
+  border: 0.1rem solid #ffffff;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  border-radius: 0.2rem;
+}
+
+.bookRoomButton:hover {
+  background-color: #ffffff;
+  border: 0.1rem solid #ffffff;
+  text-decoration: none;
+  color: #000000;
+}
+
+.headerStyle {
+  background-color: #242323;
+  padding: 1rem 17rem 0.55rem 17rem;
+}
+
+.ulContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1rem;
+}
+
+.stickyNav {
+  width: 100%;
+  position: fixed;
+  z-index: 11;
+}

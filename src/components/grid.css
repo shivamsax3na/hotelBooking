@@ -1,0 +1,29 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  margin: auto;
+  padding: 2rem 5rem;
+  width: 80%;
+}
+
+.gridContainer > div {
+  padding: 2rem;
+}
+
+.gridHeadContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aligner {
+  display: flex;
+  flex-direction: column;
+}
+
+.gridHead {
+  padding-top: 5rem;
+  font-size: 2rem;
+  font-weight: 200;
+  letter-spacing: 4px;
+}
